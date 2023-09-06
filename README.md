@@ -12,6 +12,11 @@ Inspired by the leading scientific computing language [Julia](https://julialang.
 ## Installation
 
 ```
+pip install aprint
+```
+
+For the latest version, you can install from github:
+```
 pip install git+https://github.com/huangyuxi/aprint.git
 ```
 
