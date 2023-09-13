@@ -59,10 +59,14 @@ int64[3] numpy.ndarray
 ⋮ ⋮ ],
 ⋮ ],
 ]
+
+>>> torch.tensor([1, 2]) | aprint # pipeline print (only for torch.Tensor and built-in iterators)
+int64[2] torch.Tensor at 'cpu' with grad=False
 ```
 
 ## Roadmap
 
+- [x] pipeline support for `torch.Tensor`
 - [ ] continuous integration
 - [ ] support class inheritance
 - [ ] support more types
