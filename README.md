@@ -61,9 +61,12 @@ int64[3] numpy.ndarray
 ]
 ```
 
-## Future Work
+## Roadmap
 
+- [ ] continuous integration
+- [ ] support class inheritance
 - [ ] support more types
+  - [ ] `torch.nn.parameter.Parameter`
 - [ ] colorful output
 - [ ] glance of the data
 
