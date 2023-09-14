@@ -69,6 +69,8 @@ int64[2] torch.Tensor at 'cpu' with grad=False
 - [x] pipeline support for `torch.Tensor`
 - [ ] continuous integration
 - [ ] support class inheritance
+  - [x] support iterators' classes
+  - [ ] support objects' classes
 - [ ] support more types
   - [ ] `torch.nn.parameter.Parameter`
 - [ ] colorful output
