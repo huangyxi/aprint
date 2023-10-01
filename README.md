@@ -17,7 +17,7 @@ pip install aprint
 
 For the latest version, you can install from github:
 ```
-pip install git+https://github.com/huangyuxi/aprint.git
+pip install git+https://github.com/huangyxi/aprint.git
 ```
 
 ## Usage
