@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
+import os
 
 setup(
 	name='aprint',
-	version='0.0.1',
+	version=os.getenv('GITHUB_REF', '0.0.0').split('/')[-1].removeprefix('v'),
 	description='A function to print arrays in a concise way',
 	long_description=open('README.md').read(),
 	long_description_content_type = "text/markdown",
